@@ -5,44 +5,54 @@ import PropTypes from "prop-types";
 
 const projects = [
   {
-    title: "Olova! A Lightweight JavaScript Library",
+    title: "DevTinder",
     description:
-      "A lightweight JavaScript library for creating beautiful, responsive UI components.",
-    src: "rock.jpg",
-    link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
+      "A MERN-based matchmaking platform for developers to connect and collaborate based on skills.",
+    src: "",
+    link: "https://private-user-images.githubusercontent.com/198590729/458752300-a3740ed3-9d5c-4674-822f-4a9f8d624fe2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTA4NjMwODUsIm5iZiI6MTc1MDg2Mjc4NSwicGF0aCI6Ii8xOTg1OTA3MjkvNDU4NzUyMzAwLWEzNzQwZWQzLTlkNWMtNDY3NC04MjJmLTRhOWY4ZDYyNGZlMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjI1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYyNVQxNDQ2MjVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jYTc5Y2EyMTA0MTdmY2ZmM2VmMmQ4YTU4ZDU2MDMzZDk1NGJhYjFmY2QwMTJkN2ViMDQwZjU0MjMxYWJmYjNmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.5pYw2-4l4ha9Vb880my_H5rVGsKHeo7WEUDWyOW3TIE",
     color: "#5196fd",
-    githubLink: "https://github.com/olovajs/olova",
-    liveLink: "https://olova.js.org/",
+    githubLink: "https://github.com/arshiya-commits/DevTinderUI",
+    liveLink: "https://example.com/project",
   },
   {
-    title: "A sleek portfolio built with React and Tailwind CSS ",
+    title: "Netflix GPT",
     description:
-      "A sleek portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
+      "AI-powered movie recommender app that suggests content using OpenAI GPT and TMDB API",
     src: "tree.jpg",
-    link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
+    link: "https://static01.nyt.com/images/2020/02/06/arts/06netflix/06netflix-videoSixteenByNine3000.jpg?year=2020&h=1685&w=3000&s=3bd7bea90b5427b8b9999bed38e0f4da6d9ba7e65132ddb5457e2d5fb1b7000d&k=ZQJBKqZ0VN&tw=1",
     color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
-    liveLink: "https://codervai.vercel.app",
+    githubLink: "https://github.com/arshiya-commits/NetflixGpt",
+    liveLink: "https://netflixgpt-qekf.onrender.com",
   },
   {
-    title: "🚀 CodeWhisperer",
+    title: "Vidora",
     description:
-      "🚀 CodeWhisperer A powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
+      "A React-based video streaming app with  search,live chat and user engagement features! 💻✨",
     src: "water.jpg",
-    link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
+    link: "https://private-user-images.githubusercontent.com/198590729/458939763-be2437f2-de75-4845-ae3f-d750deb35942.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTA4NjQzNDQsIm5iZiI6MTc1MDg2NDA0NCwicGF0aCI6Ii8xOTg1OTA3MjkvNDU4OTM5NzYzLWJlMjQzN2YyLWRlNzUtNDg0NS1hZTNmLWQ3NTBkZWIzNTk0Mi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjI1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYyNVQxNTA3MjRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01NzhhMmQxYmJhMDhjMmI0MTdlYWVjN2Q1Y2IwYTY5OWM5NzU3ZWYyYzhiNTdjN2QxZTA5OGIxYjBmNjE0ZWIwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.E1aiUWZDavLimHucuXujVSZh3uYObUOWnWwi-hJkChc",
     color: "#fff",
-    githubLink: "https://github.com/seraprogrammer/codewhisperer",
-    liveLink: "https://codewhisperer.vercel.app/",
+    githubLink: "https://github.com/arshiya-commits/Vidora",
+    liveLink: "https://vidora-fypf.onrender.com",
   },
   {
-    title: "CodeKori 🔥",
+    title: " FoodZapp🔥",
     description:
-      "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
+      "A responsive food delivery web app with live menu, cart, and order management! 💻✨",
     src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
+    link: "https://github.com/arshiya-commits/Foodzapp/raw/main/image-5.png",
     color: "#ed649e",
-    githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+    githubLink: "https://github.com/arshiya-commits/Foodzapp",
+    liveLink: "https://foodzapp-web.onrender.com",
+  },
+  {
+    title: " 📊 Sale-Customer Dashboard",
+    description:
+      "A dynamic dashboard to visualize sales metrics and customer data using Tableau! 💻✨",
+    src: "house.jpg",
+    link: "https://private-user-images.githubusercontent.com/198590729/417385095-522da8a9-8def-4205-96cb-87d209406394.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTA4NjQ0MjQsIm5iZiI6MTc1MDg2NDEyNCwicGF0aCI6Ii8xOTg1OTA3MjkvNDE3Mzg1MDk1LTUyMmRhOGE5LThkZWYtNDIwNS05NmNiLTg3ZDIwOTQwNjM5NC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjI1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYyNVQxNTA4NDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lOGIwOWI0MDQ4MDhjZDNmYmQ0NWYwYzEwYjRkOWRlY2UzMGU4MmZlMmEzYmI0YTk3MzViYzAzZTJkNDgwN2M5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.CRovhVxPkBh7xGcFHyjOI5j0RQVKoDOicU2sI0tnAps",
+    color: "#ed649e",
+    githubLink: "https://github.com/arshiya-commits/Sales-and-Customer-Dashboard",
+    liveLink: "https://example.com/project",
   },
 ];
 

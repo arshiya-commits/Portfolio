@@ -7,7 +7,7 @@ import Header from "./pages/Header/Header";
 import Hero from "./pages/Hero/Hero";
 import Skills from "./pages/Skills/Skills";
 import Education from "./pages/Education/Education";
-
+import AchievementsSection from "./pages/Achievemnets/AchievementSection";
 import { Route, Routes } from "react-router-dom";
 
 export default function App() {
@@ -24,6 +24,7 @@ export default function App() {
           <Skills />
           <Experience />
           <Education />
+          <AchievementsSection/>
           <Contact />
         </>
       ) : (
@@ -31,8 +32,9 @@ export default function App() {
         <Routes>`
           <Route path="/" element={<Hero />} />
           <Route path="/skills" element={<Skills />} />
-          <Route path="/experience" element={<Experience />} />
+          {/* <Route path="/experience" element={<Experience />} /> */}
           <Route path="/education" element={<Education />} />
+          <Route path="/Achievements" element={<AchievementsSection />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>

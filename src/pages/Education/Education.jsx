@@ -15,24 +15,22 @@ const EducationSection = () => {
 
   const educationData = [
     {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
+      degree: "B.Tech (Data Science)",
+      school: "Rajeev Gandhi Memorial College of Engineering and Technology",
       mascot: "📘",
-      year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
+      year: "2022-2026",
+      achievements: ["GPA: 8.81", "Subject: Data Science"],
       description:
-        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
+          "specialized in data analysis, machine learning, and statistical modeling to solve real-world problems",
     },
     {
       degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
+      school: "Narayana Junior College",
       mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
-      description:
-        "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
+      year: "2020-2022",
+      achievements: ["GPA: 8.9", "Subject: MPC"],
+         description:
+        "Developed strong analytical and critical thinking skills through comprehensive study of  maths and physics."
     },
   ];
 
@@ -141,16 +139,7 @@ const EducationSection = () => {
                   </div>
                 </div>
 
-                <div className="flex flex-wrap gap-2">
-                  {edu.skills.map((skill, i) => (
-                    <span
-                      key={i}
-                      className="px-2 py-1 text-xs rounded bg-blue-500/10 text-blue-300"
-                    >
-                      {skill}
-                    </span>
-                  ))}
-                </div>
+              
               </div>
             </motion.div>
           ))}
